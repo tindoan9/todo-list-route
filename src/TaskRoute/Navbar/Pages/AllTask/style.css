@@ -1,0 +1,30 @@
+.all-task{
+	display: flex;
+	flex-wrap: wrap;
+}
+.task-item{
+	width: 200px;
+	height: 150px;
+	border: 2px solid #675BF1;
+	border-radius: 7px;
+	margin-left: 60px;
+	margin-top: 20px;
+	padding: 5px;
+}
+.task-item .status{
+	display: block;
+	border-bottom: 2px solid #675BF1;
+}
+.New{
+	color: #04BE00;
+}
+.Doing{
+	color: #F88F14;
+}
+.Done{
+	color: #675BF1;
+}
+.task-item .desc{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

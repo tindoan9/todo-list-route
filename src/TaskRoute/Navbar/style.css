@@ -1,0 +1,48 @@
+.tool-bar{
+	background-color: rgb(58, 55, 249);
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	align-items: center;
+}
+.tool-bar .create-task{
+	margin-left: 30px;
+	border: 1px solid #fff;
+	padding: 7px;
+	border-radius: 5px;
+}
+.tool-bar .search{
+	margin-right: 20px;
+}
+.tool-bar .search input{
+	padding: 10px 70px;
+	border-radius: 7px;
+	border: none;
+}
+.tool-bar .search button{
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+	border-radius: 7px;
+	border: 2px solid #fff;
+	background-color: rgb(58, 55, 249);
+}
+
+.navbar{
+	width: 150px;
+	height: 587px;
+	display: inline-block;
+	background-color: #FFA500;
+	float: left;
+}
+.navbar p{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+}
+.pagination{
+	position: absolute;
+	top: 300px;
+	left: 280px;
+}
